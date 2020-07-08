@@ -49,8 +49,8 @@ steps:
 
   - template: templates/build.yml
     parameters:
-      buildConfiguration: 'Release Candidate'   
-      
+      buildConfiguration: 'ReleaseCandidate'   
+
   # - task: DotNetCoreCLI@2
   #   displayName: 'Build the project - $(buildConfiguration)'
   #   inputs:
